@@ -2,4 +2,3 @@ package-lock.json
 node_modules/
 .env
 .pre-commit-config.yaml
-.gitignore
