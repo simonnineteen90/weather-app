@@ -6,4 +6,5 @@ const url = `http://api.weatherstack.com/current?access_key=${secretKey}&query=L
 
 request({url:url, json: true}, (err, response) => {
     console.log(response.body.current)
+    console.log('some text')
 })
